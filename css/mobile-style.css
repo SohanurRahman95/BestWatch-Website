@@ -1,0 +1,114 @@
+@media only screen and (max-width:768px){
+    .navbar-toggler-icon{
+        color: white;
+    }
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    .section-2 .cover{
+        background-position: -25vmin -10vmin;
+    }
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+    .numbers .rect h1{
+        font-size: 2rem;
+    }
+    .section-3{
+        height: inherit;
+        padding: 10vmin!important;
+    }
+    .section-3 .row .col-md-6{
+        text-align: center!important;
+    }
+    .section-3 .col-md-12 > h1{
+        padding: 6vmin 4vmin;
+    }
+    .section-3 .col-md-12 > p{
+        font-size: 1rem;
+    }
+    .section-3 .row .col-md-6{
+        text-align: center;
+    }
+    .section-3 .desktop i{
+        font-size: 8vmin;
+    }
+    .section-4 .team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-4 .carousel-inner{
+        width: 24rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:426px){
+    header .row .col-md-7{
+        padding-bottom: 5vmin;
+    }
+    .numbers .rect{
+        width: 8rem;
+        height: 7rem;
+    }
+    .h1, h1{
+        font-size: 2rem!important;
+    }
+    .cover .content > p{
+        padding: 0 1rem;
+        margin-bottom: 1em;
+    }
+    .numbers{
+        margin-top: -10vmin;
+    }
+    .platform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-3 .row .col-md-6{
+        text-align: center!important;
+    }
+    .p-4{
+        padding: 0!important;
+    }
+    .form-inline{
+        margin-bottom: 1em;
+    }
+    .section-1 .row .col-md-6 .pray img{
+        height: 400px;
+    }
+}
+@media only screen and (max-width:376px){
+    .numbers .rect{
+        width: 7rem;
+    }
+    .cover .content{
+        padding-top: 10vmin;
+    }
+    .numbers{
+        margin-top: -15vmin;
+    }
+    .cover .content > p{
+        font-size: 3vmin;
+    }
+}
+@media only screen and (max-width:320px){
+   .section-4 .card{
+       width: 18rem;
+   }
+   .section-4 .carousel-inner{
+       margin-left: -14vmin;
+   }
+}
